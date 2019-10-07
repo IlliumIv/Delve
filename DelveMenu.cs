@@ -8,7 +8,7 @@ using Delve.Libs;
 
 namespace Delve
 {
-    partial class Delve
+    partial class DelveCore
     {
         public void DelveMenu(int idIn, out int idPop)
         {
@@ -115,7 +115,22 @@ namespace Delve
                 idPop++;
                 ImGui.TreePop();
             }
-            if(ImGui.TreeNode("Debug Mode"))
+            if (ImGui.TreeNode("Delve Map Grid"))
+            {
+                ImGui.PushID(idPop);
+                Settings.DelveGridMap.Value = ImGuiExtension.Checkbox(Settings.DelveGridMap.Value ? "Show" : "Hidden", Settings.DelveGridMap);
+                ImGui.PopID();
+                idPop++;
+                ImGui.PushID(idPop);
+                if (ImGui.Button("Set current Delve Zoom as the zoom you want to show grid"))
+                {
+                    Settings.DelveGridMapScale = CurrentDelveMapZoom;
+                }
+                ImGui.PopID();
+                idPop++;
+                ImGui.TreePop();
+            }
+            if (ImGui.TreeNode("Debug Mode"))
             {
                 ImGui.PushID(idPop);
                 Settings.DebugHotkey.Value = ImGuiExtension.HotkeySelector($"Debug Mode Hotkey", Settings.DebugHotkey.Value);
@@ -131,14 +146,14 @@ namespace Delve
 
         }
 
-        public override void DrawSettingsMenu()
+        public override void DrawSettings()
         {
-            ImGui.BulletText($"v{PluginVersion}");
+            ImGui.BulletText($"{Name}: v{PluginVersion}");
             ImGui.BulletText($"Last Updated: {buildDate}");
             idPop = 1;
-            ImGui.PushStyleVar(StyleVar.ChildRounding, 5.0f);
-            ImGuiNative.igGetContentRegionAvail(out var newcontentRegionArea);
-            if (ImGui.BeginChild("RightSettings", new System.Numerics.Vector2(newcontentRegionArea.X, newcontentRegionArea.Y), true, WindowFlags.Default))
+            ImGui.PushStyleVar(ImGuiStyleVar.ChildRounding, 5.0f);
+            var newcontentRegionArea = ImGuiNative.igGetContentRegionAvail();
+            if (ImGui.BeginChild("RightSettings", new System.Numerics.Vector2(newcontentRegionArea.X, newcontentRegionArea.Y), true, ImGuiWindowFlags.None))
             {
                 DelveMenu(idPop, out var newInt);
                 idPop = newInt;

@@ -144,7 +144,7 @@
         "y": 0.5
       }
     },
-    "HarbingerChest": {
+    "AbberantFossil": {
       "frame": {
         "x": 156,
         "y": 198,
@@ -312,7 +312,7 @@
         "y": 0.5
       }
     },
-    "AbberantFossil": {
+    "WisdomCurrency": {
       "frame": {
         "x": 294,
         "y": 78,
@@ -672,7 +672,7 @@
         "y": 0.5
       }
     },
-    "AbberantFossilT1": {
+    "HarbingerChest": {
       "frame": {
         "x": 78,
         "y": 429,
@@ -696,7 +696,7 @@
         "y": 0.5
       }
     },
-    "AbyssChest": {
+    "AbberantFossilT1": {
       "frame": {
         "x": 156,
         "y": 432,
@@ -984,7 +984,7 @@
         "y": 0.5
       }
     },
-    "UniqueManaFlask": {
+    "AbyssChest": {
       "frame": {
         "x": 156,
         "y": 510,
@@ -1152,7 +1152,7 @@
         "y": 0.5
       }
     },
-    "WarbandsChest": {
+    "Strongbox": {
       "frame": {
         "x": 546,
         "y": 156,
@@ -1176,7 +1176,7 @@
         "y": 0.5
       }
     },
-    "AbyssJewelChest": {
+    "WarbandsChest": {
       "frame": {
         "x": 546,
         "y": 234,
@@ -1200,7 +1200,7 @@
         "y": 0.5
       }
     },
-    "TempestChest": {
+    "AbyssJewelChest": {
       "frame": {
         "x": 546,
         "y": 312,
@@ -1224,7 +1224,7 @@
         "y": 0.5
       }
     },
-    "TormentChest": {
+    "TempestChest": {
       "frame": {
         "x": 546,
         "y": 390,
@@ -1248,7 +1248,7 @@
         "y": 0.5
       }
     },
-    "WisdomCurrency": {
+    "TormentChest": {
       "frame": {
         "x": 546,
         "y": 468,
@@ -1272,48 +1272,48 @@
         "y": 0.5
       }
     },
-    "RareAmulet": {
+    "UniqueManaFlask": {
       "frame": {
         "x": 0,
         "y": 585,
-        "w": 71,
-        "h": 71
+        "w": 78,
+        "h": 78
       },
       "rotated": false,
       "trimmed": false,
       "spriteSourceSize": {
         "x": 0,
         "y": 0,
-        "w": 71,
-        "h": 71
+        "w": 78,
+        "h": 78
       },
       "sourceSize": {
-        "w": 71,
-        "h": 71
+        "w": 78,
+        "h": 78
       },
       "pivot": {
         "x": 0.5,
         "y": 0.5
       }
     },
-    "HiddenDoor": {
+    "RareAmulet": {
       "frame": {
-        "x": 71,
+        "x": 78,
         "y": 585,
-        "w": 64,
-        "h": 64
+        "w": 71,
+        "h": 71
       },
       "rotated": false,
       "trimmed": false,
       "spriteSourceSize": {
         "x": 0,
         "y": 0,
-        "w": 64,
-        "h": 64
+        "w": 71,
+        "h": 71
       },
       "sourceSize": {
-        "w": 64,
-        "h": 64
+        "w": 71,
+        "h": 71
       },
       "pivot": {
         "x": 0.5,
@@ -1322,7 +1322,31 @@
     },
     "Gate": {
       "frame": {
-        "x": 135,
+        "x": 149,
+        "y": 588,
+        "w": 64,
+        "h": 64
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 64,
+        "h": 64
+      },
+      "sourceSize": {
+        "w": 64,
+        "h": 64
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "HiddenDoor": {
+      "frame": {
+        "x": 213,
         "y": 588,
         "w": 64,
         "h": 64
@@ -1346,8 +1370,8 @@
     },
     "AbyssCrack": {
       "frame": {
-        "x": 199,
-        "y": 588,
+        "x": 277,
+        "y": 546,
         "w": 50,
         "h": 50
       },
@@ -1376,7 +1400,7 @@
     "format": "RGBA8888",
     "size": {
       "w": 624,
-      "h": 656
+      "h": 663
     },
     "scale": 1
   }
