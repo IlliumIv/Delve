@@ -54,27 +54,23 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="ImGui.NET">
-      <HintPath>..\..\..\..\ImGui.NET.dll</HintPath>
+      <HintPath>..\..\ExileApi\deps\ImGui.NET.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Newtonsoft.Json">
       <HintPath>..\..\..\..\Newtonsoft.Json.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="PoeHUD">
-      <HintPath>..\..\..\..\..\development-work\PoEHUD\Release\PoeHUD.exe</HintPath>
-      <Private>False</Private>
-    </Reference>
     <Reference Include="SharpDX">
-      <HintPath>..\..\..\..\SharpDX.dll</HintPath>
+      <HintPath>..\..\PoeHelper\SharpDX.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="SharpDX.Direct3D9">
-      <HintPath>..\..\..\..\SharpDX.Direct3D9.dll</HintPath>
+    <Reference Include="SharpDX.Direct3D11">
+      <HintPath>..\..\PoeHelper\SharpDX.Direct3D11.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="SharpDX.Mathematics">
-      <HintPath>..\..\..\..\SharpDX.Mathematics.dll</HintPath>
+      <HintPath>..\..\PoeHelper\SharpDX.Mathematics.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="System" />
@@ -103,6 +99,137 @@
   <ItemGroup>
     <None Include="app.config" />
     <None Include="packages.config" />
+    <None Include="Textures\DelveAtlas.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\ExileApi\Core\Core.csproj">
+      <Project>{5539d732-34a7-44ab-9e28-116c3429b12a}</Project>
+      <Name>Core</Name>
+      <Private>False</Private>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Textures\DelveAtlas.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Optimized\AbberantFossil.png" />
+    <Content Include="Textures\Optimized\AbberantFossilT1.png" />
+    <Content Include="Textures\Optimized\AbberantFossilT2.png" />
+    <Content Include="Textures\Optimized\AbberantFossilT3.png" />
+    <Content Include="Textures\Optimized\AbyssChest.png" />
+    <Content Include="Textures\Optimized\AbyssCrack.png" />
+    <Content Include="Textures\Optimized\AbyssJewelChest.png" />
+    <Content Include="Textures\Optimized\AdditionalSockets.png" />
+    <Content Include="Textures\Optimized\AmbushInvasionChest.png" />
+    <Content Include="Textures\Optimized\Azurite.png" />
+    <Content Include="Textures\Optimized\AzuriteT1.png" />
+    <Content Include="Textures\Optimized\AzuriteT2.png" />
+    <Content Include="Textures\Optimized\AzuriteT3.png" />
+    <Content Include="Textures\Optimized\BestiaryChest.png" />
+    <Content Include="Textures\Optimized\BeyondChest.png" />
+    <Content Include="Textures\Optimized\BloodlinesChest.png" />
+    <Content Include="Textures\Optimized\Bombs.png" />
+    <Content Include="Textures\Optimized\BreachChest.png" />
+    <Content Include="Textures\Optimized\Corrupted.png" />
+    <Content Include="Textures\Optimized\Currency.png" />
+    <Content Include="Textures\Optimized\DelveChest.png" />
+    <Content Include="Textures\Optimized\DivinationCard.png" />
+    <Content Include="Textures\Optimized\DominationChest.png" />
+    <Content Include="Textures\Optimized\Enchant.png" />
+    <Content Include="Textures\Optimized\Essence.png" />
+    <Content Include="Textures\Optimized\Flare.png" />
+    <Content Include="Textures\Optimized\Fragment.png" />
+    <Content Include="Textures\Optimized\Gate.png" />
+    <Content Include="Textures\Optimized\HarbingerChest.png" />
+    <Content Include="Textures\Optimized\HiddenDoor.png" />
+    <Content Include="Textures\Optimized\HighLevelGem.png" />
+    <Content Include="Textures\Optimized\IncursionChest.png" />
+    <Content Include="Textures\Optimized\Map.png" />
+    <Content Include="Textures\Optimized\NemesisChest.png" />
+    <Content Include="Textures\Optimized\OfferingChest.png" />
+    <Content Include="Textures\Optimized\OnslaughtChest.png" />
+    <Content Include="Textures\Optimized\PaleCourtComplete.png" />
+    <Content Include="Textures\Optimized\PerandusChest.png" />
+    <Content Include="Textures\Optimized\PerandusCoins.png" />
+    <Content Include="Textures\Optimized\Prophecy.png" />
+    <Content Include="Textures\Optimized\RampageChest.png" />
+    <Content Include="Textures\Optimized\RareAmulet.png" />
+    <Content Include="Textures\Optimized\ResonatorT1.png" />
+    <Content Include="Textures\Optimized\ResonatorT2.png" />
+    <Content Include="Textures\Optimized\ResonatorT3.png" />
+    <Content Include="Textures\Optimized\SilverCoin.png" />
+    <Content Include="Textures\Optimized\SixLink.png" />
+    <Content Include="Textures\Optimized\SpeedArmour.png" />
+    <Content Include="Textures\Optimized\StygianViseChest.png" />
+    <Content Include="Textures\Optimized\TalismanChest.png" />
+    <Content Include="Textures\Optimized\TempestChest.png" />
+    <Content Include="Textures\Optimized\TormentChest.png" />
+    <Content Include="Textures\Optimized\UniqueManaFlask.png" />
+    <Content Include="Textures\Optimized\Upgrade2x1A.png" />
+    <Content Include="Textures\Optimized\Upgrade2x2A.png" />
+    <Content Include="Textures\Optimized\WarbandsChest.png" />
+    <Content Include="Textures\Optimized\WisdomCurrency.png" />
+    <Content Include="Textures\Sources\AbberantFossil - Copy.png" />
+    <Content Include="Textures\Sources\AbberantFossil.png" />
+    <Content Include="Textures\Sources\AbberantFossilT1.png" />
+    <Content Include="Textures\Sources\AbberantFossilT2.png" />
+    <Content Include="Textures\Sources\AbberantFossilT3.png" />
+    <Content Include="Textures\Sources\abyss-crack.png" />
+    <Content Include="Textures\Sources\AbyssChest.png" />
+    <Content Include="Textures\Sources\AbyssJewelChest.png" />
+    <Content Include="Textures\Sources\AdditionalSockets.png" />
+    <Content Include="Textures\Sources\AmbushInvasionChest.png" />
+    <Content Include="Textures\Sources\Azurite.png" />
+    <Content Include="Textures\Sources\AzuriteT1.png" />
+    <Content Include="Textures\Sources\AzuriteT2.png" />
+    <Content Include="Textures\Sources\AzuriteT3.png" />
+    <Content Include="Textures\Sources\BestiaryChest.png" />
+    <Content Include="Textures\Sources\BeyondChest.png" />
+    <Content Include="Textures\Sources\BloodlinesChest.png" />
+    <Content Include="Textures\Sources\Bombs.png" />
+    <Content Include="Textures\Sources\BreachChest.png" />
+    <Content Include="Textures\Sources\Corrupted.png" />
+    <Content Include="Textures\Sources\Currency.png" />
+    <Content Include="Textures\Sources\DelveChest.png" />
+    <Content Include="Textures\Sources\divinationCard.png" />
+    <Content Include="Textures\Sources\DominationChest.png" />
+    <Content Include="Textures\Sources\Enchant.png" />
+    <Content Include="Textures\Sources\Essence.png" />
+    <Content Include="Textures\Sources\Flare.png" />
+    <Content Include="Textures\Sources\Fragment.png" />
+    <Content Include="Textures\Sources\gate.png" />
+    <Content Include="Textures\Sources\HarbingerChest.png" />
+    <Content Include="Textures\Sources\hidden_door.png" />
+    <Content Include="Textures\Sources\HighLevelGem.png" />
+    <Content Include="Textures\Sources\IncursionChest.png" />
+    <Content Include="Textures\Sources\Map.png" />
+    <Content Include="Textures\Sources\NemesisChest.png" />
+    <Content Include="Textures\Sources\OfferingChest.png" />
+    <Content Include="Textures\Sources\OnslaughtChest.png" />
+    <Content Include="Textures\Sources\PaleCourtComplete.png" />
+    <Content Include="Textures\Sources\PerandusChest.png" />
+    <Content Include="Textures\Sources\PerandusCoins.png" />
+    <Content Include="Textures\Sources\Prophecy.png" />
+    <Content Include="Textures\Sources\RampageChest.png" />
+    <Content Include="Textures\Sources\rare-amulet.png" />
+    <Content Include="Textures\Sources\ResonatorT1.png" />
+    <Content Include="Textures\Sources\ResonatorT2.png" />
+    <Content Include="Textures\Sources\ResonatorT3.png" />
+    <Content Include="Textures\Sources\SilverCoin.png" />
+    <Content Include="Textures\Sources\SixLink.png" />
+    <Content Include="Textures\Sources\SpeedArmour.png" />
+    <Content Include="Textures\Sources\StygianViseChest.png" />
+    <Content Include="Textures\Sources\TalismanChest.png" />
+    <Content Include="Textures\Sources\TempestChest.png" />
+    <Content Include="Textures\Sources\TormentChest.png" />
+    <Content Include="Textures\Sources\UniqueManaFlask.png" />
+    <Content Include="Textures\Sources\Upgrade2x1A.png" />
+    <Content Include="Textures\Sources\Upgrade2x2A - Copy.png" />
+    <Content Include="Textures\Sources\Upgrade2x2A.png" />
+    <Content Include="Textures\Sources\WarbandsChest.png" />
+    <Content Include="Textures\Sources\WisDomCurrency.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
