@@ -1,88 +1,31 @@
-# Windows image file caches
-Thumbs.db
-ehthumbs.db
-
-# Folder config file
-Desktop.ini
-
-# Recycle Bin used on file shares
-$RECYCLE.BIN/
-
-# Windows Installer files
-*.cab
-*.msi
-*.msm
-*.msp
-
-# Windows shortcuts
-*.lnk
-
-# =========================
-# Operating System Files
-# =========================
-
-# OSX
-# =========================
-
-.DS_Store
-.AppleDouble
-.LSOverride
-
-# Thumbnails
-._*
-
-# Files that might appear in the root of a volume
-.DocumentRevisions-V100
-.fseventsd
-.Spotlight-V100
-.TemporaryItems
-.Trashes
-.VolumeIcon.icns
-
-# Directories potentially created on remote AFP share
-.AppleDB
-.AppleDesktop
-Network Trash Folder
-Temporary Items
-.apdisk
-
-# VS folders
-[Bb]in
-[Dd]ebug*/
-[Rr]elease*/
-.vs*/
-[Pp]ackages*/
-
-# Custom
-config.ini
-%PluginUpdate%
-Delve.dll.config
-Delve.pdb
-ErrorLog.txt
-Antlr4.Runtime.xml
-System.Numerics.Vectors.dll
-System.Buffers.xml
+*.vs/
+*bin/
+*obj/
+*packages/
+Antlr4.Runtime.dll
+AutoSkill.dll.config
 System.Buffers.dll
-SharpDX.xml
-SharpDX.Direct3D9.dll
-SharpDX.Desktop.xml
+SharpDX.pdb
+SharpDX.dll
 SharpDX.Desktop.dll
+PoeHUD.pdb
 PoeHUD.exe.config
+Newtonsoft.Json.dll
+ImGui.NET.dll
+Gma.System.MouseKeyHook.dll
+netstandard.dll
+SharpDX.Mathematics.xml
+SharpDX.Mathematics.pdb
+SharpDX.Mathematics.dll
+SharpDX.Direct3D9.pdb
+SharpDX.Direct3D9.dll
 PoeHUD.exe
 PoeFilterParser.dll
-Newtonsoft.Json.xml
-Antlr4.Runtime.dll
-Trinet.Core.IO.Ntfs.xml
-SharpDX.Mathematics.xml
-SharpDX.Mathematics.dll
-PoeHUD.pdb
-Newtonsoft.Json.dll
-ImGui.NET.xml
-ImGui.NET.dll
+Newtonsoft.Json.pdb
 Trinet.Core.IO.Ntfs.dll
-System.Runtime.CompilerServices.Unsafe.xml
 System.Runtime.CompilerServices.Unsafe.dll
-System.Numerics.Vectors.xml
-SharpDX.dll
-SharpDX.Direct3D9.xml
-Gma.System.MouseKeyHook.dll
+AutoSkill.pdb
+System.Numerics.Vectors.dll
+SharpDX.Desktop.pdb
+config.ini
+SharpDX.xml

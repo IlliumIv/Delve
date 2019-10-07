@@ -1,9 +1,3 @@
-Owner: Zaafar
+Owner: IlliumIv
 Name: Delve
-Repository
-
-Ignore:
-Delve
-.gitignore
-LICENSE
-README.md
+Release

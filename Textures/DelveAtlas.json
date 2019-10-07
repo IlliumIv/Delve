@@ -1,0 +1,1383 @@
+{
+  "frames": {
+    "Bombs": {
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "w": 78,
+        "h": 156
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 78,
+        "h": 156
+      },
+      "sourceSize": {
+        "w": 78,
+        "h": 156
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "Upgrade2x1A": {
+      "frame": {
+        "x": 78,
+        "y": 0,
+        "w": 78,
+        "h": 156
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 78,
+        "h": 156
+      },
+      "sourceSize": {
+        "w": 78,
+        "h": 156
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "StygianViseChest": {
+      "frame": {
+        "x": 156,
+        "y": 0,
+        "w": 156,
+        "h": 78
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 156,
+        "h": 78
+      },
+      "sourceSize": {
+        "w": 156,
+        "h": 78
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "BeyondChest": {
+      "frame": {
+        "x": 156,
+        "y": 78,
+        "w": 60,
+        "h": 120
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 60,
+        "h": 120
+      },
+      "sourceSize": {
+        "w": 60,
+        "h": 120
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "BestiaryChest": {
+      "frame": {
+        "x": 0,
+        "y": 156,
+        "w": 78,
+        "h": 117
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 78,
+        "h": 117
+      },
+      "sourceSize": {
+        "w": 78,
+        "h": 117
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "TalismanChest": {
+      "frame": {
+        "x": 78,
+        "y": 156,
+        "w": 78,
+        "h": 117
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 78,
+        "h": 117
+      },
+      "sourceSize": {
+        "w": 78,
+        "h": 117
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "HarbingerChest": {
+      "frame": {
+        "x": 156,
+        "y": 198,
+        "w": 78,
+        "h": 78
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 78,
+        "h": 78
+      },
+      "sourceSize": {
+        "w": 78,
+        "h": 78
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "AdditionalSockets": {
+      "frame": {
+        "x": 216,
+        "y": 78,
+        "w": 78,
+        "h": 78
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 78,
+        "h": 78
+      },
+      "sourceSize": {
+        "w": 78,
+        "h": 78
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "AmbushInvasionChest": {
+      "frame": {
+        "x": 234,
+        "y": 156,
+        "w": 78,
+        "h": 78
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 78,
+        "h": 78
+      },
+      "sourceSize": {
+        "w": 78,
+        "h": 78
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "Azurite": {
+      "frame": {
+        "x": 234,
+        "y": 234,
+        "w": 78,
+        "h": 78
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 78,
+        "h": 78
+      },
+      "sourceSize": {
+        "w": 78,
+        "h": 78
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "AzuriteT1": {
+      "frame": {
+        "x": 0,
+        "y": 273,
+        "w": 78,
+        "h": 78
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 78,
+        "h": 78
+      },
+      "sourceSize": {
+        "w": 78,
+        "h": 78
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "AzuriteT2": {
+      "frame": {
+        "x": 78,
+        "y": 273,
+        "w": 78,
+        "h": 78
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 78,
+        "h": 78
+      },
+      "sourceSize": {
+        "w": 78,
+        "h": 78
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "AzuriteT3": {
+      "frame": {
+        "x": 156,
+        "y": 276,
+        "w": 78,
+        "h": 78
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 78,
+        "h": 78
+      },
+      "sourceSize": {
+        "w": 78,
+        "h": 78
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "AbberantFossil": {
+      "frame": {
+        "x": 294,
+        "y": 78,
+        "w": 78,
+        "h": 78
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 78,
+        "h": 78
+      },
+      "sourceSize": {
+        "w": 78,
+        "h": 78
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "AbberantFossilT2": {
+      "frame": {
+        "x": 312,
+        "y": 0,
+        "w": 78,
+        "h": 78
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 78,
+        "h": 78
+      },
+      "sourceSize": {
+        "w": 78,
+        "h": 78
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "BloodlinesChest": {
+      "frame": {
+        "x": 312,
+        "y": 156,
+        "w": 78,
+        "h": 78
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 78,
+        "h": 78
+      },
+      "sourceSize": {
+        "w": 78,
+        "h": 78
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "AbberantFossilT3": {
+      "frame": {
+        "x": 312,
+        "y": 234,
+        "w": 78,
+        "h": 78
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 78,
+        "h": 78
+      },
+      "sourceSize": {
+        "w": 78,
+        "h": 78
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "BreachChest": {
+      "frame": {
+        "x": 0,
+        "y": 351,
+        "w": 78,
+        "h": 78
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 78,
+        "h": 78
+      },
+      "sourceSize": {
+        "w": 78,
+        "h": 78
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "Corrupted": {
+      "frame": {
+        "x": 78,
+        "y": 351,
+        "w": 78,
+        "h": 78
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 78,
+        "h": 78
+      },
+      "sourceSize": {
+        "w": 78,
+        "h": 78
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "Currency": {
+      "frame": {
+        "x": 156,
+        "y": 354,
+        "w": 78,
+        "h": 78
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 78,
+        "h": 78
+      },
+      "sourceSize": {
+        "w": 78,
+        "h": 78
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "DelveChest": {
+      "frame": {
+        "x": 234,
+        "y": 312,
+        "w": 78,
+        "h": 78
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 78,
+        "h": 78
+      },
+      "sourceSize": {
+        "w": 78,
+        "h": 78
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "DivinationCard": {
+      "frame": {
+        "x": 312,
+        "y": 312,
+        "w": 78,
+        "h": 78
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 78,
+        "h": 78
+      },
+      "sourceSize": {
+        "w": 78,
+        "h": 78
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "DominationChest": {
+      "frame": {
+        "x": 372,
+        "y": 78,
+        "w": 78,
+        "h": 78
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 78,
+        "h": 78
+      },
+      "sourceSize": {
+        "w": 78,
+        "h": 78
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "Enchant": {
+      "frame": {
+        "x": 390,
+        "y": 0,
+        "w": 78,
+        "h": 78
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 78,
+        "h": 78
+      },
+      "sourceSize": {
+        "w": 78,
+        "h": 78
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "Essence": {
+      "frame": {
+        "x": 390,
+        "y": 156,
+        "w": 78,
+        "h": 78
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 78,
+        "h": 78
+      },
+      "sourceSize": {
+        "w": 78,
+        "h": 78
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "Flare": {
+      "frame": {
+        "x": 390,
+        "y": 234,
+        "w": 78,
+        "h": 78
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 78,
+        "h": 78
+      },
+      "sourceSize": {
+        "w": 78,
+        "h": 78
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "Fragment": {
+      "frame": {
+        "x": 390,
+        "y": 312,
+        "w": 78,
+        "h": 78
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 78,
+        "h": 78
+      },
+      "sourceSize": {
+        "w": 78,
+        "h": 78
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "Upgrade2x2A": {
+      "frame": {
+        "x": 0,
+        "y": 429,
+        "w": 78,
+        "h": 78
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 78,
+        "h": 78
+      },
+      "sourceSize": {
+        "w": 78,
+        "h": 78
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "AbberantFossilT1": {
+      "frame": {
+        "x": 78,
+        "y": 429,
+        "w": 78,
+        "h": 78
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 78,
+        "h": 78
+      },
+      "sourceSize": {
+        "w": 78,
+        "h": 78
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "AbyssChest": {
+      "frame": {
+        "x": 156,
+        "y": 432,
+        "w": 78,
+        "h": 78
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 78,
+        "h": 78
+      },
+      "sourceSize": {
+        "w": 78,
+        "h": 78
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "HighLevelGem": {
+      "frame": {
+        "x": 234,
+        "y": 390,
+        "w": 78,
+        "h": 78
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 78,
+        "h": 78
+      },
+      "sourceSize": {
+        "w": 78,
+        "h": 78
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "IncursionChest": {
+      "frame": {
+        "x": 312,
+        "y": 390,
+        "w": 78,
+        "h": 78
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 78,
+        "h": 78
+      },
+      "sourceSize": {
+        "w": 78,
+        "h": 78
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "Map": {
+      "frame": {
+        "x": 390,
+        "y": 390,
+        "w": 78,
+        "h": 78
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 78,
+        "h": 78
+      },
+      "sourceSize": {
+        "w": 78,
+        "h": 78
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "NemesisChest": {
+      "frame": {
+        "x": 450,
+        "y": 78,
+        "w": 78,
+        "h": 78
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 78,
+        "h": 78
+      },
+      "sourceSize": {
+        "w": 78,
+        "h": 78
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "OfferingChest": {
+      "frame": {
+        "x": 468,
+        "y": 0,
+        "w": 78,
+        "h": 78
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 78,
+        "h": 78
+      },
+      "sourceSize": {
+        "w": 78,
+        "h": 78
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "OnslaughtChest": {
+      "frame": {
+        "x": 468,
+        "y": 156,
+        "w": 78,
+        "h": 78
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 78,
+        "h": 78
+      },
+      "sourceSize": {
+        "w": 78,
+        "h": 78
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "PaleCourtComplete": {
+      "frame": {
+        "x": 468,
+        "y": 234,
+        "w": 78,
+        "h": 78
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 78,
+        "h": 78
+      },
+      "sourceSize": {
+        "w": 78,
+        "h": 78
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "PerandusChest": {
+      "frame": {
+        "x": 468,
+        "y": 312,
+        "w": 78,
+        "h": 78
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 78,
+        "h": 78
+      },
+      "sourceSize": {
+        "w": 78,
+        "h": 78
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "PerandusCoins": {
+      "frame": {
+        "x": 468,
+        "y": 390,
+        "w": 78,
+        "h": 78
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 78,
+        "h": 78
+      },
+      "sourceSize": {
+        "w": 78,
+        "h": 78
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "Prophecy": {
+      "frame": {
+        "x": 0,
+        "y": 507,
+        "w": 78,
+        "h": 78
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 78,
+        "h": 78
+      },
+      "sourceSize": {
+        "w": 78,
+        "h": 78
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "RampageChest": {
+      "frame": {
+        "x": 78,
+        "y": 507,
+        "w": 78,
+        "h": 78
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 78,
+        "h": 78
+      },
+      "sourceSize": {
+        "w": 78,
+        "h": 78
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "UniqueManaFlask": {
+      "frame": {
+        "x": 156,
+        "y": 510,
+        "w": 78,
+        "h": 78
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 78,
+        "h": 78
+      },
+      "sourceSize": {
+        "w": 78,
+        "h": 78
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "ResonatorT1": {
+      "frame": {
+        "x": 234,
+        "y": 468,
+        "w": 78,
+        "h": 78
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 78,
+        "h": 78
+      },
+      "sourceSize": {
+        "w": 78,
+        "h": 78
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "ResonatorT2": {
+      "frame": {
+        "x": 312,
+        "y": 468,
+        "w": 78,
+        "h": 78
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 78,
+        "h": 78
+      },
+      "sourceSize": {
+        "w": 78,
+        "h": 78
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "ResonatorT3": {
+      "frame": {
+        "x": 390,
+        "y": 468,
+        "w": 78,
+        "h": 78
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 78,
+        "h": 78
+      },
+      "sourceSize": {
+        "w": 78,
+        "h": 78
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "SilverCoin": {
+      "frame": {
+        "x": 468,
+        "y": 468,
+        "w": 78,
+        "h": 78
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 78,
+        "h": 78
+      },
+      "sourceSize": {
+        "w": 78,
+        "h": 78
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "SixLink": {
+      "frame": {
+        "x": 528,
+        "y": 78,
+        "w": 78,
+        "h": 78
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 78,
+        "h": 78
+      },
+      "sourceSize": {
+        "w": 78,
+        "h": 78
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "SpeedArmour": {
+      "frame": {
+        "x": 546,
+        "y": 0,
+        "w": 78,
+        "h": 78
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 78,
+        "h": 78
+      },
+      "sourceSize": {
+        "w": 78,
+        "h": 78
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "WarbandsChest": {
+      "frame": {
+        "x": 546,
+        "y": 156,
+        "w": 78,
+        "h": 78
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 78,
+        "h": 78
+      },
+      "sourceSize": {
+        "w": 78,
+        "h": 78
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "AbyssJewelChest": {
+      "frame": {
+        "x": 546,
+        "y": 234,
+        "w": 78,
+        "h": 78
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 78,
+        "h": 78
+      },
+      "sourceSize": {
+        "w": 78,
+        "h": 78
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "TempestChest": {
+      "frame": {
+        "x": 546,
+        "y": 312,
+        "w": 78,
+        "h": 78
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 78,
+        "h": 78
+      },
+      "sourceSize": {
+        "w": 78,
+        "h": 78
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "TormentChest": {
+      "frame": {
+        "x": 546,
+        "y": 390,
+        "w": 78,
+        "h": 78
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 78,
+        "h": 78
+      },
+      "sourceSize": {
+        "w": 78,
+        "h": 78
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "WisdomCurrency": {
+      "frame": {
+        "x": 546,
+        "y": 468,
+        "w": 78,
+        "h": 78
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 78,
+        "h": 78
+      },
+      "sourceSize": {
+        "w": 78,
+        "h": 78
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "RareAmulet": {
+      "frame": {
+        "x": 0,
+        "y": 585,
+        "w": 71,
+        "h": 71
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 71,
+        "h": 71
+      },
+      "sourceSize": {
+        "w": 71,
+        "h": 71
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "HiddenDoor": {
+      "frame": {
+        "x": 71,
+        "y": 585,
+        "w": 64,
+        "h": 64
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 64,
+        "h": 64
+      },
+      "sourceSize": {
+        "w": 64,
+        "h": 64
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "Gate": {
+      "frame": {
+        "x": 135,
+        "y": 588,
+        "w": 64,
+        "h": 64
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 64,
+        "h": 64
+      },
+      "sourceSize": {
+        "w": 64,
+        "h": 64
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "AbyssCrack": {
+      "frame": {
+        "x": 199,
+        "y": 588,
+        "w": 50,
+        "h": 50
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 50,
+        "h": 50
+      },
+      "sourceSize": {
+        "w": 50,
+        "h": 50
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    }
+  },
+  "meta": {
+    "app": "http://free-tex-packer.com",
+    "version": "0.6.0",
+    "image": "DelveAtlas.png",
+    "format": "RGBA8888",
+    "size": {
+      "w": 624,
+      "h": 656
+    },
+    "scale": 1
+  }
+}
