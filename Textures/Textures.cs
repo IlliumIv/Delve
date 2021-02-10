@@ -132,6 +132,8 @@ namespace Delve
 
         private MapIcon GetMapIcon(Entity e)
         {
+            if (e == null) return null;
+
             if (Settings.DelvePathWays)
             {
                 if (e.Path == "Metadata/Terrain/Leagues/Delve/Objects/DelveLight")
@@ -141,7 +143,9 @@ namespace Delve
             }
             if (Settings.DelveChests)
             {
-                if (e.HasComponent<Chest>() && !e.GetComponent<Chest>().IsOpened)
+                var chestIsOpened = e?.GetComponent<Chest>()?.IsOpened;
+
+                if (chestIsOpened == false)
                 {
                     if (e.Path.EndsWith("Encounter"))
                     {
